@@ -66,6 +66,13 @@ header{
     padding: 20px 0;
 }
 
+.logo-flag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
 .logo{
     font-size: 1.2rem;
     font-weight: 600;
@@ -74,6 +81,26 @@ header{
 
 .logo-color{
     color: var(--main-color);
+}
+
+.flag-translate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    cursor: pointer;
+}
+
+.flag-translate img{
+    width: 100%;
+}
+
+.flag-poland{
+    display: flex;
+}
+
+.flag-united{
+    display: flex;
 }
 
 .navbar{
@@ -402,7 +429,18 @@ header{
 }
 
 .footer p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+}
+
+.footer .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.footer .email p{
+    font-size: .9rem;
 }
 
 .scroll-top{
